@@ -44,7 +44,6 @@ const { MongoClient, ObjectId } = require("mongodb");
     //              0                   1
 
     const filmes = db.collection("filmes");
-    const filmes = undefined;
 
     // [GET] - Read All
     app.get("/filmes", async (req, res) => {
